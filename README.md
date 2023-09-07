@@ -18,17 +18,13 @@
 
 - [Descrição do projeto](#descrição-do-projeto)
 
-- [Funcionalidades](#funcionalidades)
+- [Tipos de Cenários](#tipos-de-cenários)
 
-- [Aplicação](#aplicação)
+- [Soluções Implementadas](#solucoes-implementadas)
 
 - [Ferramentas utilizadas](#ferramentas-utilizadas)
 
-- [Acesso ao projeto](#acesso-ao-projeto)
-
-- [Abrir e rodar o projeto](#abrir-e-rodar-o-projeto)
-
-- [Etapas do Projeto](tapas-projeto)
+- [Benefícios Obtidos](#benefícios-obtidos)
 
 - [Skills de Palavra Chave](skill-de-palavra-chave)
 
@@ -41,40 +37,84 @@ Tem uma matéria da Alura falando do papel e responsabilidade desse profissional
 
 Links utéis para relebrar conceitos e simplemente estudar, [link](https://github.com/SartMorgs/data-engineer-roadmap)
 
-### Desafios Arquiteturas Mercado
+### Desafios Arquiteturas de Mercado
 
-Arquitetura de Dados Legado | Neste projeto você encontrará um exemplo de uma arquitetura de dados legado para entender os desafios 
+* Diversidade de Fontes de Dados: A organização recebe dados de várias fontes, cada uma com seu próprio formato e estrutura.
 
-Arquitetura de Dados Moderna |  MultiCloud | AWS(Amazon), AZURE(Microsoft) e GCP(Google).
+* Variedade de Casos de Uso: Existem sete casos de uso diferentes para a ingestão de dados, cada um com requisitos específicos de processamento e entrega.
+
+* Streaming vs. Batch: Alguns casos de uso exigem processamento em tempo real (Streaming), enquanto outros são mais adequados para processamento em lote (Batch).
+
+* Escalabilidade: A quantidade de dados a serem ingetados é massiva, exigindo uma infraestrutura escalável.
 
 
 ### Descrição do projeto
 
-Objetivo aqui é a democratização das informações e demonstrar os tipos de arquiteturas de dados do mercado e os desafios nas empresas 
+Case de estudo para planejamento da melhor solução, imagine uma organização que lida com uma enorme quantidade de dados de diferentes fontes, incluindo registros transacionais, logs de aplicativos, feeds de sensores, entre outros. Esses dados são cruciais para alimentar análises, inteligência de negócios e tomada de decisões. A organização decidiu centralizar e armazenar todos esses dados em um Data Lake para aproveitar ao máximo seu potencial.
+
+Elabore um desenho de arquitetura de dados para "Jornada da Ingestão de Dados no Data Lake: Balanceando Streaming e Batch"
+
+Nesse case não está contemplando uso de tecnologia para resolução final do problema, somente análise, planejamento, entendimento de conceitos de arquitetura, avaliar conceitos de dados.
+
+Este case destaca a importância de uma abordagem flexível e bem planejada para a ingestão de dados em um Data Lake, permitindo que uma organização aproveite ao máximo seus ativos de dados e obtenha insights valiosos para impulsionar o sucesso dos negócios.
+
+## Tipos de Cenários
+
+:heavy_check_mark: `Case 1:` NRT
+
+:heavy_check_mark: `Case 2:` Streaming de eventos
+
+:heavy_check_mark: `Case 3:` Streaming de CDC
+
+:heavy_check_mark: `Case 4:` Streaming de eventos períodicos
+
+:heavy_check_mark: `Case 4:` Consumo de API interativa
+
+:heavy_check_mark: `Case 5:` Consumo de bases - Batch
+
+:heavy_check_mark: `Case 5:` Consumo de arquivos - Batch
 
 
-## Funcionalidades
+### Soluções Implementadas
 
-:heavy_check_mark: `Case 1:` Coleta de dados do Bath
+* 1. Unificação de Dados:
 
-:heavy_check_mark: `Case 2:` Coleta de dados GCP
+Desenvolvimento de um modelo de metadados comum para mapear a estrutura de dados de todas as fontes.
+Uso de ferramentas de ETL (Extração, Transformação e Carga) para padronizar e transformar os dados em um formato consistente antes da ingestão.
 
-:heavy_check_mark: `Case 3:` Coleta de dados do twiter / x 
+* 2. Arquitetura Híbrida:
 
-:heavy_check_mark: `Case 4:` Coleta de dados da loteria 
+Implementação de uma arquitetura híbrida que suporta tanto a ingestão de dados em tempo real (Streaming) quanto em lote (Batch).
+Utilização de tecnologias como Apache Kafka para streaming e Apache Spark para processamento em lote.
 
+* 3. Orquestração:
 
-### Aplicação
+Uso de ferramentas de orquestração, como Apache Airflow, para gerenciar e agendar tarefas de ingestão de dados.
+
+* 4. Monitoramento e Logging:
+
+Implementação de um sistema de monitoramento em tempo real para acompanhar o desempenho da ingestão e identificar problemas rapidamente.
+Criação de registros (logs) detalhados para rastrear cada etapa do processo de ingestão.
+
 
 ### Ferramentas utilizadas
 Drawio
 https://www.drawio.com/
 
-### Acesso ao projeto
+### Benefícios Obtidos
 
-### Abrir e rodar o projeto
+Benefícios Obtidos
 
-### Etapas do Projeto
+Eficiência Operacional: A padronização dos dados e a automação dos processos de ingestão reduziram significativamente o tempo e os recursos necessários.
+
+Maior Agilidade: A arquitetura híbrida permite que a organização responda rapidamente às mudanças nos requisitos de ingestão de dados.
+
+Tomada de Decisões Baseada em Dados: Com os dados centralizados e preparados na camada raw, a organização pode extrair insights valiosos para melhorar seus processos de negócios.
+
+Escalabilidade: A infraestrutura escalável garante que a organização possa lidar com o aumento contínuo dos dados.
+
+
+
 
 ## Skills de Palavra Chave:
 C, C++, SQL, JAVA , C#, Python , SPARK e PySpark. DataBricks | Cloud AWS | Cloud Azure | ELT | ETL | Delta Lake | Blob Storage | Data Lake | Data LakeHouse | Data Factory | Data Flow | Azure Synapse Studio | Dedicated SQL Pool | Serveless SQL Pool | Apache Spark Pool | Airflow | Crawler | Jenkins | Terraform | Cloudformation | Azure Devops | AWS Synapse | Kinesis | Data Store | Data Lake - S3 | AWS GLUE | AWS ATHENA | REDSHIFT | Docker | Kubernetes | API | Git | GitHub | Power BI (M e DAX) | Talend | SSIS | Orientação a Objeto OO | Entrega contínua | MVC | MTV | DDL | DQL | DML | DCL | TCL Gerenciamento de Recursos e Custo | Segurança | Governança de Dados
