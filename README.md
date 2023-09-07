@@ -19,6 +19,8 @@
 - [Descrição do projeto](#descrição-do-projeto)
 
 - [Tipos de Cenários](#tipos-de-cenários)
+- 
+- [Desenho da Solução](#desenho-da-solução)
 
 - [Soluções Implementadas](#solucoes-implementadas)
 
@@ -57,6 +59,8 @@ Elabore um desenho de arquitetura de dados para "Jornada da Ingestão de Dados n
 Nesse case não está contemplando uso de tecnologia para resolução final do problema, somente análise, planejamento, entendimento de conceitos de arquitetura, avaliar conceitos de dados.
 
 Este case destaca a importância de uma abordagem flexível e bem planejada para a ingestão de dados em um Data Lake, permitindo que uma organização aproveite ao máximo seus ativos de dados e obtenha insights valiosos para impulsionar o sucesso dos negócios.
+
+## Desenho da Solução
 
 ## Tipos de Cenários
 
