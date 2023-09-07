@@ -2,7 +2,7 @@
 
 <hr>
 
-### Tópicos básicos
+### Tópicos Básicos
 
 - [Desenvolvedores](#desenvolvedores)
   
@@ -31,11 +31,31 @@
 - [Etapas do Projeto](tapas-projeto)
 
 
+### Desenvolvedores
+| [<img src="https://avatars.githubusercontent.com/tatianaflorentino?v=4" width=115><br><sub>Tatiana Florentino</sub>](https://github.com/TatianaFlorentino) 
+
+### Papel eEngenheiro(a) de Dados
+Tem uma matéria da Alura falando do papel e responsabilidade desse profissional que acredito que vale a pena ler e assistir o conteúdo da página, [link](https://www.alura.com.br/artigos/engenharia-dados).
+
+Links utéis para relebrar conceitos e simplemente estudar, [link](https://github.com/SartMorgs/data-engineer-roadmap)
+
+### Tipos Arquiteturas Mercado
+
+Fiz uma matéria falando sobre os tipos de arquiteturas de dados que pode existir no mercado digital.
+
+### Descrição do projeto
+Objetivo aqui e demonstrar alguns aprendizado dentro de bootcamp que objetive.
+
+### Funcionalidades
+
+### Aplicação
+
+### Ferramentas utilizadas
+
+### Acesso ao projeto
+
+### Abrir e rodar o projeto
+
+### Etapas do Projeto
 
 
-# Engenharia de Dados
-Engenharia de Dados
-
-Obtivo aqui apresentar 7 casos de uso para ingestão no Data Lake que entregam os dados basicamente em 2 formas: Streaming e Batch. 
-
-Neste artigo serão apresentados e detalhados os processos de preparação e ingestão de dados no Data Lake até a camada raw.
