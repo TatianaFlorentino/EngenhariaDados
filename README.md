@@ -3,43 +3,34 @@
 <hr>
 
 ### Tópicos Básicos
-
 - [Desenvolvedores](#desenvolvedores)
-  
-- [Papel eEngenheiro(a) de Dados](#papel-engenheiroa-de-dados)
+- [Papel Engenheiro de Dados](#papel-engenheiro-de-dados)
 
 ### Tópicos Intermediário
-
-- [Estudos Engenharia de Dados](#tratamento-de-dados)
+- [Estudos Engenharia de Dados](#estudos-engenharia-de-dados)
 
 ### Tópicos Avançados
 
-- [Desafios Arquiteturas Mercado](#tipos-de-arquieturas-mercado)
-
+- [Desafios Arquitetura Mercado](#desafios-arquitetura-mercado)
 - [Descrição do projeto](#descrição-do-projeto)
-
 - [Tipos de Cenários](#tipos-de-cenários)
-- 
 - [Desenho da Solução](#desenho-da-solução)
-
-- [Soluções Implementadas](#solucoes-implementadas)
-
+- [Soluções Implementadas](#soluçoes-implementadas)
 - [Ferramentas utilizadas](#ferramentas-utilizadas)
-
 - [Benefícios Obtidos](#benefícios-obtidos)
-
 - [Skills de Palavra Chave](skill-de-palavra-chave)
 
 
 ### Desenvolvedores
 | [<img src="https://avatars.githubusercontent.com/tatianaflorentino?v=4" width=115><br><sub>Tatiana Florentino</sub>](https://github.com/TatianaFlorentino) 
 
-### Papel eEngenheiro(a) de Dados
+### Papel Engenheiro de Dados
 Tem uma matéria da Alura falando do papel e responsabilidade desse profissional que acredito que vale a pena ler e assistir o conteúdo da página, [link](https://www.alura.com.br/artigos/engenharia-dados).
-
 Links utéis para relebrar conceitos e simplemente estudar, [link](https://github.com/SartMorgs/data-engineer-roadmap)
 
-### Desafios Arquiteturas de Mercado
+### Estudos Engenharia de Dados
+
+### Desafios Arquitetura Mercado
 
 * Diversidade de Fontes de Dados: A organização recebe dados de várias fontes, cada uma com seu próprio formato e estrutura.
 
@@ -81,21 +72,21 @@ Este case destaca a importância de uma abordagem flexível e bem planejada para
 
 ### Soluções Implementadas
 
-* 1. Unificação de Dados:
+* Unificação de Dados:
 
 Desenvolvimento de um modelo de metadados comum para mapear a estrutura de dados de todas as fontes.
 Uso de ferramentas de ETL (Extração, Transformação e Carga) para padronizar e transformar os dados em um formato consistente antes da ingestão.
 
-* 2. Arquitetura Híbrida:
+* Arquitetura Híbrida:
 
 Implementação de uma arquitetura híbrida que suporta tanto a ingestão de dados em tempo real (Streaming) quanto em lote (Batch).
 Utilização de tecnologias como Apache Kafka para streaming e Apache Spark para processamento em lote.
 
-* 3. Orquestração:
+*  Orquestração:
 
 Uso de ferramentas de orquestração, como Apache Airflow, para gerenciar e agendar tarefas de ingestão de dados.
 
-* 4. Monitoramento e Logging:
+* Monitoramento e Logging:
 
 Implementação de um sistema de monitoramento em tempo real para acompanhar o desempenho da ingestão e identificar problemas rapidamente.
 Criação de registros (logs) detalhados para rastrear cada etapa do processo de ingestão.
@@ -116,7 +107,6 @@ Maior Agilidade: A arquitetura híbrida permite que a organização responda rap
 Tomada de Decisões Baseada em Dados: Com os dados centralizados e preparados na camada raw, a organização pode extrair insights valiosos para melhorar seus processos de negócios.
 
 Escalabilidade: A infraestrutura escalável garante que a organização possa lidar com o aumento contínuo dos dados.
-
 
 
 
